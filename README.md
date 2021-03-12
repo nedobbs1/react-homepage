@@ -1,3 +1,16 @@
+# Welcome to my Homepage app
+
+This is my Chrome homepage containing features I find most useful.
+
+## Features
+- Clock
+- Current date and day
+- Weather (in progress)
+- Quick Google Search (in progress)
+- Toolbar (in progress)
+    - Pace calculator (in progress)
+    - Theme toggle (in progress)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

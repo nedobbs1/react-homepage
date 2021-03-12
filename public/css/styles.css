@@ -1,0 +1,165 @@
+/* font colors
+#F1B24A
+#FFFFFF */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #164A41, #4D774E, #9DC88D);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Amatic SC', cursive;
+    color: #F1B24A;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-size: 2rem;
+    width: fit-content;
+    left: 50%;
+}
+
+/* CONTAINER */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* WEATHER */
+.weather-container {
+    width: 30%;
+    padding: .5em;
+    border-radius: 3px;
+    text-align: center;
+    background: rgba(179, 179, 179, 0.1);
+    font-size: 2rem;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+
+/* CLOCK */
+.clock {
+    font-size: 3.5rem;
+    margin-bottom: 0.25em;
+}
+
+
+
+/* SEARCH */
+.search-field {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #164A41;
+    border: solid 0px #164A41;
+    font-size: 4rem;
+    color: #F1B24A;
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    overflow: hidden;
+}
+
+
+
+/* TOOLS and TOOLBAR */
+.toolbar {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    border-radius: 10px;
+    background-color: rgba(179, 179, 179, 0.1);
+    font-size: 2rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.tool {
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(179, 179, 179, 0.2);
+}
+
+.pace-calculator {
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgba(179, 179, 179, 0.3);
+}
+
+.pace-calculator h1 {
+    font-size: 1.75rem;
+    padding-right: 50px;
+}
+
+.half-block {
+    display: inline-block;
+    width: 40%
+}
+
+.pace-calculator label {
+    font-size: 1.5rem;
+    padding: 0 1%;
+}
+
+.pace-calculator input {
+    text-align: right;
+    width: 40px;
+    border-radius: 5px;
+    background-color: rgba(179, 179, 179, 0.0);
+    font-size: 1.24rem;
+    border: 0px solid;
+    outline: none;
+    padding-right: 2%;
+    color: #F1B24A;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button {
+    color: #F1B24A;
+    padding: 1%;
+    margin: 1%;
+    font-size: 1.75rem;
+    font-family: 'Amatic SC', cursive;
+    border-radius: 5px;
+    border: 0px solid;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(179, 179, 179, 0.0);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
