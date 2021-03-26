@@ -34,9 +34,9 @@ function Clock() {
     if (day === "Sunday") {
       return "Easy like ";
     } else if (day === "Friday" || day === "Saturday") {
-      return "Hell yea! ";
+      return "Hell yea, it's ";
     } else {
-      return "A fuckin ";
+      return "Dang it's ";
     }
   }
 

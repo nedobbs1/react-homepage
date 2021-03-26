@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PaceCalculator from "./PaceCalculator";
+import ThemeToggle from "./theme-toggle";
 
 function Toolbar() {
   const [isExpanded, setExpanded] = useState(false);
@@ -13,6 +14,7 @@ function Toolbar() {
       <p onClick={handleClick}>Tools</p>
       <div hidden={isExpanded ? false : true}>
         <PaceCalculator />
+        <ThemeToggle />
       </div>
     </div>
   );

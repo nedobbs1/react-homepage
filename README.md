@@ -1,4 +1,4 @@
-# Welcome to my Homepage app
+# Welcome to my homepage React app
 
 This is my Chrome homepage containing features I find most useful.
 
@@ -8,8 +8,8 @@ This is my Chrome homepage containing features I find most useful.
 - Weather (in progress)
 - Quick Google Search (in progress)
 - Toolbar (in progress)
-    - Pace calculator (in progress)
-    - Theme toggle (in progress)
+    - Pace calculator
+    - Theme toggle (minor bugs)
 
 # Getting Started with Create React App
 

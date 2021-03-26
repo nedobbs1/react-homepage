@@ -2,6 +2,7 @@ import React from "react";
 import Clock from "./Clock/Clock";
 import Toolbar from "./Tools/Toolbar";
 import Search from "./Search/Search";
+// import Weather from "./Weather/Weather";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="container">
         <Search />
         <Clock />
+        {/* <Weather /> */}
       </div>
       <div className="bottom-bar">
         <Toolbar />
