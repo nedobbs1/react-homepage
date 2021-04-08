@@ -15,6 +15,7 @@ function Clock() {
     "January",
     "February",
     "March",
+    "April",
     "May",
     "June",
     "July",
@@ -36,7 +37,7 @@ function Clock() {
     } else if (day === "Friday" || day === "Saturday") {
       return "Hell yea, it's ";
     } else {
-      return "Dang it's ";
+      return "Dang, it's ";
     }
   }
 
