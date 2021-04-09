@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { calculateTime } from "../../features/time-calculator/calculate-time";
 import { calculatePace } from "../../features/pace-calculator/calculate-pace";
-import { convertTimeToSeconds } from "../../features/time-to-seconds-conversion/time-to-seconds-conversion";
 import { calculateDistance } from "../../features/distance-calculator/calculate-distance";
+import { convertTimeToSeconds } from "../../features/time-to-seconds-conversion/time-to-seconds-conversion";
 
 function PaceCalculator() {
   const [distance, setDistance] = useState(0);

@@ -8,6 +8,9 @@ function ThemeToggle() {
     setExpanded(!isExpanded);
   }
 
+  // var buttons = document.querySelectorAll("button");
+  // var inputs = document.querySelectorAll("input");
+
   useEffect(() => {
     document.body.classList.add(isTheme);
     return function cleanUp() {
